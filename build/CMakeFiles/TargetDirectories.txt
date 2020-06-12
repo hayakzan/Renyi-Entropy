@@ -1,0 +1,3 @@
+/Users/rikyu/Desktop/supercollider-Version-3.10.2/RenyiEntropy/build/CMakeFiles/rebuild_cache.dir
+/Users/rikyu/Desktop/supercollider-Version-3.10.2/RenyiEntropy/build/CMakeFiles/edit_cache.dir
+/Users/rikyu/Desktop/supercollider-Version-3.10.2/RenyiEntropy/build/CMakeFiles/RenyiEntropy.dir
