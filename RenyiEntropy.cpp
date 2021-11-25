@@ -226,7 +226,7 @@ void SensoryDissonance_next_k( SensoryDissonance *unit, int inNumSamples ) {
 
 						}
 
-						//correct??????????????????????????????
+						//correct
 						peakfreqs[numpeaks] = (j-1+position)*frequencyperbin; //frequencyconversion;
 						//printf("peakfrequencies %d is %f from i %d position %f freqperbin %f \n", numpeaks,peakfrequencies[numpeaks],i, position, frequencyperbin);
 
@@ -413,7 +413,7 @@ void RenyiEntropy_next_k( RenyiEntropy *unit, int inNumSamples ) {
 	float entropysum = 0.0f;
 	float entropyval = 0.0f;
 
-	//less than because of guard elements ???
+	//less than because of guard elements
 	for  (i=start; i<end; ++i) {
 
 	  int index = 2*i;
