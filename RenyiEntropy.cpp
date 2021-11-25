@@ -451,10 +451,10 @@ void RenyiEntropy_next_k( RenyiEntropy *unit, int inNumSamples ) {
 
 	  }
 	  entropyval =  log2(entropysum) / (1.0f-alpha);
-	  entropies[j] = entropyval; //i?
+	  entropies[i] = entropyval; 
 
 	} else
-	  entropies[j] = 0.0f;
+	  entropies[i] = 0.0f;
 
       }
 
